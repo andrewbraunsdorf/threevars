@@ -1,0 +1,9 @@
+var arr1 = [1,1,2,3];
+var arr2 = [5,8,13,21];
+var arr3 = [34,55,89,144];
+var i;
+
+for (i=0; i < arr1.length; i++) {
+     var result = arr1[i] * arr2[i] * arr3[i];
+     console.log(result);
+}
